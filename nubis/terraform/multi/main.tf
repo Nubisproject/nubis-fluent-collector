@@ -399,7 +399,7 @@ resource "aws_elasticsearch_domain" "fluentd" {
       "Sid": "Allow Fluentd to inject",
       "Effect": "Allow",
       "Principal": {
-        "AWS": [ ${join(",\n", formatlist("\"%v\"", aws_iam_role.fluent-collector.*.arn))} ]
+        "AWS": [ ${join(",", formatlist("\"%s\"", aws_iam_role.fluent-collector.*.arn))} ]
       },
       "Action": [
         "es:ESHttpGet",
