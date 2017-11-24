@@ -13,7 +13,7 @@ exec { 'chmod /usr/local/bin/awsproxy':
 }
 
 systemd::unit_file { 'aws-proxy.service':
- source => 'puppet:///nubis/files/aws-proxy.systemd',
+  source => 'puppet:///nubis/files/aws-proxy.systemd',
 }->
 service { 'aws-proxy':
   enable => true,

@@ -18,5 +18,5 @@ exec { 'fix elasticsearch_exporter permissions':
 
 # Gets triggered by awsproxy startup/shutdown
 systemd::unit_file { 'elasticsearch_exporter.service':
- source => 'puppet:///nubis/files/elasticsearch_exporter.systemd',
+  source => 'puppet:///nubis/files/elasticsearch_exporter.systemd',
 }
