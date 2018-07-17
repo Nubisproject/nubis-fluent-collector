@@ -1,14 +1,28 @@
 # Change Log
 
+## [v2.3.0](https://github.com/nubisproject/nubis-fluent-collector/tree/v2.3.0) (2018-07-17)
+[Full Changelog](https://github.com/nubisproject/nubis-fluent-collector/compare/v2.2.0...v2.3.0)
+
+**Closed issues:**
+
+- Ensure local disk buffers for all our outbound destinations [\#268](https://github.com/nubisproject/nubis-fluent-collector/issues/268)
+
+**Merged pull requests:**
+
+- Make sure to have file buffers for all our outbound destinations [\#269](https://github.com/nubisproject/nubis-fluent-collector/pull/269) ([gozer](https://github.com/gozer))
+
 ## [v2.2.0](https://github.com/nubisproject/nubis-fluent-collector/tree/v2.2.0) (2018-04-06)
 [Full Changelog](https://github.com/nubisproject/nubis-fluent-collector/compare/v2.1.0...v2.2.0)
 
 **Closed issues:**
 
 - \[TF\] Cleanup for 0.11.x [\#263](https://github.com/nubisproject/nubis-fluent-collector/issues/263)
+- Tag v2.2.0 release [\#265](https://github.com/nubisproject/nubis-fluent-collector/issues/265)
 
 **Merged pull requests:**
 
+- Update CHANGELOG for v2.2.0 release \[skip ci\] [\#267](https://github.com/nubisproject/nubis-fluent-collector/pull/267) ([nubis-automation](https://github.com/nubis-automation))
+- Update CHANGELOG for v2.2.0 release \[skip ci\] [\#266](https://github.com/nubisproject/nubis-fluent-collector/pull/266) ([nubis-automation](https://github.com/nubis-automation))
 - Fix \#263 [\#264](https://github.com/nubisproject/nubis-fluent-collector/pull/264) ([gozer](https://github.com/gozer))
 - Tag this project as a platform component [\#262](https://github.com/nubisproject/nubis-fluent-collector/pull/262) ([limed](https://github.com/limed))
 - Linting fix [\#261](https://github.com/nubisproject/nubis-fluent-collector/pull/261) ([limed](https://github.com/limed))

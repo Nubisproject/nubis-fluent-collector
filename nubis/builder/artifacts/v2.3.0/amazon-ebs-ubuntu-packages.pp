@@ -1,5 +1,5 @@
 package { 'PyYAML':
-  ensure => '3.12',
+  ensure => '3.13',
 }
 package { 'accountsservice':
   ensure => '0.6.40-2ubuntu11.3',
@@ -17,19 +17,19 @@ package { 'apparmor':
   ensure => '2.10.95-0ubuntu2.9',
 }
 package { 'apport':
-  ensure => '2.20.1-0ubuntu2.15',
+  ensure => '2.20.1-0ubuntu2.18',
 }
 package { 'apport-symptoms':
   ensure => '0.20',
 }
 package { 'apt':
-  ensure => '1.2.26',
+  ensure => '1.2.27',
 }
 package { 'apt-transport-https':
-  ensure => '1.2.26',
+  ensure => '1.2.27',
 }
 package { 'apt-utils':
-  ensure => '1.2.26',
+  ensure => '1.2.27',
 }
 package { 'asn1crypto':
   ensure => '0.24.0',
@@ -65,10 +65,10 @@ package { 'binutils':
   ensure => '2.26.1-1ubuntu1~16.04.6',
 }
 package { 'boto3':
-  ensure => '1.7.2',
+  ensure => '1.7.58',
 }
 package { 'botocore':
-  ensure => '1.10.2',
+  ensure => '1.10.58',
 }
 package { 'bsd-mailx':
   ensure => '8.1.2-0.20160123cvs-2',
@@ -101,7 +101,7 @@ package { 'ca-certificates':
   ensure => '20170717~16.04.1',
 }
 package { 'certifi':
-  ensure => '2018.1.18',
+  ensure => '2018.4.16',
 }
 package { 'cffi':
   ensure => '1.11.5',
@@ -113,10 +113,10 @@ package { 'click':
   ensure => '6.7',
 }
 package { 'cloud-guest-utils':
-  ensure => '0.27-0ubuntu25',
+  ensure => '0.27-0ubuntu25.1',
 }
 package { 'cloud-init':
-  ensure => '17.2-35-gf576b2a2-0ubuntu1~16.04.2',
+  ensure => '18.2-4-g05926e48-0ubuntu1~16.04.2',
 }
 package { 'cloud-initramfs-copymods':
   ensure => '0.27ubuntu1.5',
@@ -134,10 +134,10 @@ package { 'command-not-found-data':
   ensure => '0.3ubuntu16.04.2',
 }
 package { 'console-setup':
-  ensure => '1.108ubuntu15.3',
+  ensure => '1.108ubuntu15.4',
 }
 package { 'console-setup-linux':
-  ensure => '1.108ubuntu15.3',
+  ensure => '1.108ubuntu15.4',
 }
 package { 'consulate':
   ensure => '0.6.0',
@@ -152,7 +152,7 @@ package { 'cpp':
   ensure => '4:5.3.1-1ubuntu1',
 }
 package { 'cpp-5':
-  ensure => '5.4.0-6ubuntu1~16.04.9',
+  ensure => '5.4.0-6ubuntu1~16.04.10',
 }
 package { 'credstash':
   ensure => '1.14.0',
@@ -173,7 +173,7 @@ package { 'cryptsetup-bin':
   ensure => '2:1.6.6-5ubuntu2.1',
 }
 package { 'curl':
-  ensure => '7.47.0-1ubuntu2.7',
+  ensure => '7.47.0-1ubuntu2.8',
 }
 package { 'dash':
   ensure => '0.5.8-2.1ubuntu2',
@@ -206,7 +206,7 @@ package { 'diffutils':
   ensure => '1:3.3-3',
 }
 package { 'distro-info-data':
-  ensure => '0.28ubuntu0.7',
+  ensure => '0.28ubuntu0.8',
 }
 package { 'dmeventd':
   ensure => '2:1.02.110-1ubuntu10',
@@ -218,13 +218,13 @@ package { 'dmsetup':
   ensure => '2:1.02.110-1ubuntu10',
 }
 package { 'dns-root-data':
-  ensure => '2015052300+h+1',
+  ensure => '2018013001~16.04.1',
 }
 package { 'dnsmasq':
-  ensure => '2.75-1ubuntu0.16.04.4',
+  ensure => '2.75-1ubuntu0.16.04.5',
 }
 package { 'dnsmasq-base':
-  ensure => '2.75-1ubuntu0.16.04.4',
+  ensure => '2.75-1ubuntu0.16.04.5',
 }
 package { 'dnsutils':
   ensure => '1:9.10.3.dfsg.P4-8ubuntu1.10',
@@ -263,7 +263,7 @@ package { 'eject':
   ensure => '2.1.5+deb1+cvs20081104-13.1ubuntu0.16.04.1',
 }
 package { 'elasticsearch':
-  ensure => '5.5.2',
+  ensure => '5.5.3',
 }
 package { 'elasticsearch-curator':
   ensure => '5.0.0',
@@ -290,7 +290,7 @@ package { 'fast_gettext':
   ensure => ['1.1.0'],
 }
 package { 'file':
-  ensure => '1:5.25-2ubuntu1',
+  ensure => '1:5.25-2ubuntu1.1',
 }
 package { 'findutils':
   ensure => '4.6.0+git+20160126-2',
@@ -317,7 +317,7 @@ package { 'g++':
   ensure => '4:5.3.1-1ubuntu1',
 }
 package { 'g++-5':
-  ensure => '5.4.0-6ubuntu1~16.04.9',
+  ensure => '5.4.0-6ubuntu1~16.04.10',
 }
 package { 'gawk':
   ensure => '1:4.1.3+dfsg-0.1',
@@ -326,10 +326,10 @@ package { 'gcc':
   ensure => '4:5.3.1-1ubuntu1',
 }
 package { 'gcc-5':
-  ensure => '5.4.0-6ubuntu1~16.04.9',
+  ensure => '5.4.0-6ubuntu1~16.04.10',
 }
 package { 'gcc-5-base':
-  ensure => '5.4.0-6ubuntu1~16.04.9',
+  ensure => '5.4.0-6ubuntu1~16.04.10',
 }
 package { 'gcc-6-base':
   ensure => '6.0.1-0ubuntu1',
@@ -353,16 +353,16 @@ package { 'gir1.2-glib-2.0':
   ensure => '1.46.0-3ubuntu1',
 }
 package { 'git':
-  ensure => '1:2.7.4-0ubuntu1.3',
+  ensure => '1:2.7.4-0ubuntu1.4',
 }
 package { 'git-man':
-  ensure => '1:2.7.4-0ubuntu1.3',
+  ensure => '1:2.7.4-0ubuntu1.4',
 }
 package { 'gnupg':
-  ensure => '1.4.20-1ubuntu3.1',
+  ensure => '1.4.20-1ubuntu3.2',
 }
 package { 'gpgv':
-  ensure => '1.4.20-1ubuntu3.1',
+  ensure => '1.4.20-1ubuntu3.2',
 }
 package { 'grep':
   ensure => '2.25-1~16.04.1',
@@ -371,22 +371,22 @@ package { 'groff-base':
   ensure => '1.22.3-7',
 }
 package { 'grub-common':
-  ensure => '2.02~beta2-36ubuntu3.17',
+  ensure => '2.02~beta2-36ubuntu3.18',
 }
 package { 'grub-gfxpayload-lists':
   ensure => '0.7',
 }
 package { 'grub-legacy-ec2':
-  ensure => '17.2-35-gf576b2a2-0ubuntu1~16.04.2',
+  ensure => '18.2-4-g05926e48-0ubuntu1~16.04.2',
 }
 package { 'grub-pc':
-  ensure => '2.02~beta2-36ubuntu3.17',
+  ensure => '2.02~beta2-36ubuntu3.18',
 }
 package { 'grub-pc-bin':
-  ensure => '2.02~beta2-36ubuntu3.17',
+  ensure => '2.02~beta2-36ubuntu3.18',
 }
 package { 'grub2-common':
-  ensure => '2.02~beta2-36ubuntu3.17',
+  ensure => '2.02~beta2-36ubuntu3.18',
 }
 package { 'gzip':
   ensure => '1.6-4ubuntu1',
@@ -407,13 +407,13 @@ package { 'hostname':
   ensure => '3.16ubuntu2',
 }
 package { 'idna':
-  ensure => '2.6',
+  ensure => '2.7',
 }
 package { 'ifenslave':
   ensure => '2.7ubuntu1',
 }
 package { 'ifupdown':
-  ensure => '0.8.10ubuntu1.2',
+  ensure => '0.8.10ubuntu1.4',
 }
 package { 'info':
   ensure => '6.1.0.dfsg.1-5',
@@ -446,7 +446,7 @@ package { 'io-console':
   ensure => ['0.4.5'],
 }
 package { 'ipaddress':
-  ensure => '1.0.19',
+  ensure => '1.0.22',
 }
 package { 'iproute2':
   ensure => '4.3.0-1ubuntu3.16.04.3',
@@ -488,7 +488,7 @@ package { 'kbd':
   ensure => '1.15.5-1ubuntu5',
 }
 package { 'keyboard-configuration':
-  ensure => '1.108ubuntu15.3',
+  ensure => '1.108ubuntu15.4',
 }
 package { 'klibc-utils':
   ensure => '2.0.4-8ubuntu1.16.04.4',
@@ -527,13 +527,13 @@ package { 'libapparmor1':
   ensure => '2.10.95-0ubuntu2.9',
 }
 package { 'libapt-inst2.0':
-  ensure => '1.2.26',
+  ensure => '1.2.27',
 }
 package { 'libapt-pkg5.0':
-  ensure => '1.2.26',
+  ensure => '1.2.27',
 }
 package { 'libasan2':
-  ensure => '5.4.0-6ubuntu1~16.04.9',
+  ensure => '5.4.0-6ubuntu1~16.04.10',
 }
 package { 'libasn1-8-heimdal':
   ensure => '1.7~git20150920+dfsg-4ubuntu1.16.04.1',
@@ -545,7 +545,7 @@ package { 'libatm1':
   ensure => '1:2.5.1-1.5',
 }
 package { 'libatomic1':
-  ensure => '5.4.0-6ubuntu1~16.04.9',
+  ensure => '5.4.0-6ubuntu1~16.04.10',
 }
 package { 'libattr1':
   ensure => '1:2.4.47-2',
@@ -590,10 +590,10 @@ package { 'libcap2-bin':
   ensure => '1:2.24-12',
 }
 package { 'libcc1-0':
-  ensure => '5.4.0-6ubuntu1~16.04.9',
+  ensure => '5.4.0-6ubuntu1~16.04.10',
 }
 package { 'libcilkrts5':
-  ensure => '5.4.0-6ubuntu1~16.04.9',
+  ensure => '5.4.0-6ubuntu1~16.04.10',
 }
 package { 'libcomerr2':
   ensure => '1.42.13-1ubuntu1',
@@ -602,7 +602,7 @@ package { 'libcryptsetup4':
   ensure => '2:1.6.6-5ubuntu2.1',
 }
 package { 'libcurl3-gnutls':
-  ensure => '7.47.0-1ubuntu2.7',
+  ensure => '7.47.0-1ubuntu2.8',
 }
 package { 'libdb5.3':
   ensure => '5.3.28-11ubuntu0.1',
@@ -632,10 +632,10 @@ package { 'libdpkg-perl':
   ensure => '1.18.4ubuntu1.4',
 }
 package { 'libdrm-common':
-  ensure => '2.4.83-1~16.04.1',
+  ensure => '2.4.91-2~16.04.1',
 }
 package { 'libdrm2':
-  ensure => '2.4.83-1~16.04.1',
+  ensure => '2.4.91-2~16.04.1',
 }
 package { 'libdumbnet1':
   ensure => '1.12-7',
@@ -647,7 +647,7 @@ package { 'libedit2':
   ensure => '3.1-20150325-1ubuntu2',
 }
 package { 'libelf1':
-  ensure => '0.165-3ubuntu1',
+  ensure => '0.165-3ubuntu1.1',
 }
 package { 'liberror-perl':
   ensure => '0.17-1.2',
@@ -686,13 +686,13 @@ package { 'libfuse2':
   ensure => '2.9.4-1ubuntu3.1',
 }
 package { 'libgcc-5-dev':
-  ensure => '5.4.0-6ubuntu1~16.04.9',
+  ensure => '5.4.0-6ubuntu1~16.04.10',
 }
 package { 'libgcc1':
   ensure => '1:6.0.1-0ubuntu1',
 }
 package { 'libgcrypt20':
-  ensure => '1.6.5-2ubuntu0.4',
+  ensure => '1.6.5-2ubuntu0.5',
 }
 package { 'libgdbm3':
   ensure => '1.8.3-13.1',
@@ -725,7 +725,7 @@ package { 'libgnutls30':
   ensure => '3.4.10-4ubuntu1.4',
 }
 package { 'libgomp1':
-  ensure => '5.4.0-6ubuntu1~16.04.9',
+  ensure => '5.4.0-6ubuntu1~16.04.10',
 }
 package { 'libgpg-error0':
   ensure => '1.21-2ubuntu1',
@@ -782,13 +782,13 @@ package { 'libisl15':
   ensure => '0.16.1-1',
 }
 package { 'libitm1':
-  ensure => '5.4.0-6ubuntu1~16.04.9',
+  ensure => '5.4.0-6ubuntu1~16.04.10',
 }
 package { 'libjbig0':
   ensure => '2.1-3.1',
 }
 package { 'libjpeg-turbo8':
-  ensure => '1.4.2-0ubuntu3',
+  ensure => '1.4.2-0ubuntu3.1',
 }
 package { 'libjpeg8':
   ensure => '8c-2ubuntu8',
@@ -824,7 +824,7 @@ package { 'liblcms2-2':
   ensure => '2.6-3ubuntu2',
 }
 package { 'libldap-2.4-2':
-  ensure => '2.4.42+dfsg-2ubuntu3.2',
+  ensure => '2.4.42+dfsg-2ubuntu3.3',
 }
 package { 'liblocale-gettext-perl':
   ensure => '1.07-1build1',
@@ -836,7 +836,7 @@ package { 'liblockfile1':
   ensure => '1.09-6ubuntu1',
 }
 package { 'liblsan0':
-  ensure => '5.4.0-6ubuntu1~16.04.9',
+  ensure => '5.4.0-6ubuntu1~16.04.10',
 }
 package { 'liblvm2app2.2':
   ensure => '2.02.133-1ubuntu10',
@@ -860,7 +860,7 @@ package { 'liblzo2-2':
   ensure => '2.08-1.2',
 }
 package { 'libmagic1':
-  ensure => '1:5.25-2ubuntu1',
+  ensure => '1:5.25-2ubuntu1.1',
 }
 package { 'libmnl0':
   ensure => '1.0.3-5',
@@ -878,7 +878,7 @@ package { 'libmpfr4':
   ensure => '3.1.4-1',
 }
 package { 'libmpx0':
-  ensure => '5.4.0-6ubuntu1~16.04.9',
+  ensure => '5.4.0-6ubuntu1~16.04.10',
 }
 package { 'libmspack0':
   ensure => '0.5-1ubuntu0.16.04.1',
@@ -917,19 +917,19 @@ package { 'libp11-kit0':
   ensure => '0.23.2-5~ubuntu16.04.1',
 }
 package { 'libpam-modules':
-  ensure => '1.1.8-3.2ubuntu2',
+  ensure => '1.1.8-3.2ubuntu2.1',
 }
 package { 'libpam-modules-bin':
-  ensure => '1.1.8-3.2ubuntu2',
+  ensure => '1.1.8-3.2ubuntu2.1',
 }
 package { 'libpam-runtime':
-  ensure => '1.1.8-3.2ubuntu2',
+  ensure => '1.1.8-3.2ubuntu2.1',
 }
 package { 'libpam-systemd':
   ensure => '229-4ubuntu21.2',
 }
 package { 'libpam0g':
-  ensure => '1.1.8-3.2ubuntu2',
+  ensure => '1.1.8-3.2ubuntu2.1',
 }
 package { 'libpaper-utils':
   ensure => '1.1.24+nmu4ubuntu1',
@@ -950,31 +950,31 @@ package { 'libpcre3':
   ensure => '2:8.38-3.1',
 }
 package { 'libperl5.22':
-  ensure => '5.22.1-9ubuntu0.2',
+  ensure => '5.22.1-9ubuntu0.5',
 }
 package { 'libpipeline1':
   ensure => '1.4.1-2',
 }
 package { 'libplymouth4':
-  ensure => '0.9.2-3ubuntu13.3',
+  ensure => '0.9.2-3ubuntu13.5',
 }
 package { 'libpng12-0':
-  ensure => '1.2.54-1ubuntu1',
+  ensure => '1.2.54-1ubuntu1.1',
 }
 package { 'libpolkit-agent-1-0':
-  ensure => '0.105-14.1',
+  ensure => '0.105-14.1ubuntu0.1',
 }
 package { 'libpolkit-backend-1-0':
-  ensure => '0.105-14.1',
+  ensure => '0.105-14.1ubuntu0.1',
 }
 package { 'libpolkit-gobject-1-0':
-  ensure => '0.105-14.1',
+  ensure => '0.105-14.1ubuntu0.1',
 }
 package { 'libpopt0':
   ensure => '1.16-10',
 }
 package { 'libprocps4':
-  ensure => '2:3.3.10-4ubuntu2.3',
+  ensure => '2:3.3.10-4ubuntu2.4',
 }
 package { 'libpython-all-dev':
   ensure => '2.7.12-1~16.04',
@@ -1010,7 +1010,7 @@ package { 'libpython3.5-stdlib':
   ensure => '3.5.2-2ubuntu0~16.04.4',
 }
 package { 'libquadmath0':
-  ensure => '5.4.0-6ubuntu1~16.04.9',
+  ensure => '5.4.0-6ubuntu1~16.04.10',
 }
 package { 'libreadline5':
   ensure => '5.2+dfsg-3build1',
@@ -1025,7 +1025,7 @@ package { 'librtmp1':
   ensure => '2.4+20151223.gitfa8646d-1ubuntu0.1',
 }
 package { 'libruby2.3':
-  ensure => '2.3.1-2~16.04.7',
+  ensure => '2.3.1-2~16.04.10',
 }
 package { 'libsasl2-2':
   ensure => '2.1.26.dfsg1-14build1',
@@ -1067,13 +1067,13 @@ package { 'libss2':
   ensure => '1.42.13-1ubuntu1',
 }
 package { 'libssl1.0.0':
-  ensure => '1.0.2g-1ubuntu4.11',
+  ensure => '1.0.2g-1ubuntu4.13',
 }
 package { 'libstdc++-5-dev':
-  ensure => '5.4.0-6ubuntu1~16.04.9',
+  ensure => '5.4.0-6ubuntu1~16.04.10',
 }
 package { 'libstdc++6':
-  ensure => '5.4.0-6ubuntu1~16.04.9',
+  ensure => '5.4.0-6ubuntu1~16.04.10',
 }
 package { 'libsystemd0':
   ensure => '229-4ubuntu21.2',
@@ -1097,10 +1097,10 @@ package { 'libtinfo5':
   ensure => '6.0+20160213-1ubuntu1',
 }
 package { 'libtsan0':
-  ensure => '5.4.0-6ubuntu1~16.04.9',
+  ensure => '5.4.0-6ubuntu1~16.04.10',
 }
 package { 'libubsan0':
-  ensure => '5.4.0-6ubuntu1~16.04.9',
+  ensure => '5.4.0-6ubuntu1~16.04.10',
 }
 package { 'libudev1':
   ensure => '229-4ubuntu21.2',
@@ -1153,6 +1153,12 @@ package { 'libxext6':
 package { 'libxml2':
   ensure => '2.9.3+dfsg1-1ubuntu0.5',
 }
+package { 'libxmlsec1':
+  ensure => '1.2.20-2ubuntu4',
+}
+package { 'libxmlsec1-openssl':
+  ensure => '1.2.20-2ubuntu4',
+}
 package { 'libxmuu1':
   ensure => '2:1.1.2-2',
 }
@@ -1166,28 +1172,37 @@ package { 'libyaml-0-2':
   ensure => '0.1.6-3',
 }
 package { 'linux-aws':
-  ensure => '4.4.0.1054.56',
+  ensure => '4.4.0.1062.64',
 }
-package { 'linux-aws-headers-4.4.0-1054':
-  ensure => '4.4.0-1054.63',
+package { 'linux-aws-headers-4.4.0-1061':
+  ensure => '4.4.0-1061.70',
+}
+package { 'linux-aws-headers-4.4.0-1062':
+  ensure => '4.4.0-1062.71',
 }
 package { 'linux-base':
-  ensure => '4.0ubuntu1',
+  ensure => '4.5ubuntu1~16.04.1',
 }
-package { 'linux-headers-4.4.0-1054-aws':
-  ensure => '4.4.0-1054.63',
+package { 'linux-headers-4.4.0-1061-aws':
+  ensure => '4.4.0-1061.70',
+}
+package { 'linux-headers-4.4.0-1062-aws':
+  ensure => '4.4.0-1062.71',
 }
 package { 'linux-headers-aws':
-  ensure => '4.4.0.1054.56',
+  ensure => '4.4.0.1062.64',
 }
-package { 'linux-image-4.4.0-1054-aws':
-  ensure => '4.4.0-1054.63',
+package { 'linux-image-4.4.0-1061-aws':
+  ensure => '4.4.0-1061.70',
+}
+package { 'linux-image-4.4.0-1062-aws':
+  ensure => '4.4.0-1062.71',
 }
 package { 'linux-image-aws':
-  ensure => '4.4.0.1054.56',
+  ensure => '4.4.0.1062.64',
 }
 package { 'linux-libc-dev':
-  ensure => '4.4.0-119.143',
+  ensure => '4.4.0-130.156',
 }
 package { 'locale':
   ensure => ['2.1.2'],
@@ -1304,7 +1319,7 @@ package { 'net-scp':
   ensure => ['1.2.1'],
 }
 package { 'net-ssh':
-  ensure => ['4.2.0'],
+  ensure => ['5.0.2'],
 }
 package { 'net-telnet':
   ensure => ['0.1.1'],
@@ -1322,13 +1337,13 @@ package { 'ntfs-3g':
   ensure => '1:2015.3.14AR.1-1ubuntu0.1',
 }
 package { 'ntp':
-  ensure => '1:4.2.8p4+dfsg-3ubuntu5.8',
+  ensure => '1:4.2.8p4+dfsg-3ubuntu5.9',
 }
 package { 'open-iscsi':
   ensure => '2.0.873+git0.3b4b4500-14ubuntu3.4',
 }
 package { 'open-vm-tools':
-  ensure => '2:10.0.7-3227872-5ubuntu1~16.04.2',
+  ensure => '2:10.2.0-3~ubuntu0.16.04.1',
 }
 package { 'openssh-client':
   ensure => '1:7.2p2-4ubuntu2.4',
@@ -1340,7 +1355,7 @@ package { 'openssh-sftp-server':
   ensure => '1:7.2p2-4ubuntu2.4',
 }
 package { 'openssl':
-  ensure => '1.0.2g-1ubuntu4.11',
+  ensure => '1.0.2g-1ubuntu4.13',
 }
 package { 'os-prober':
   ensure => '1.70ubuntu3.3',
@@ -1358,34 +1373,34 @@ package { 'pastebinit':
   ensure => '1.5-1',
 }
 package { 'patch':
-  ensure => '2.7.5-1',
+  ensure => '2.7.5-1ubuntu0.16.04.1',
 }
 package { 'pciutils':
   ensure => '1:3.3.1-1.1ubuntu1.2',
 }
 package { 'perl':
-  ensure => '5.22.1-9ubuntu0.2',
+  ensure => '5.22.1-9ubuntu0.5',
 }
 package { 'perl-base':
-  ensure => '5.22.1-9ubuntu0.2',
+  ensure => '5.22.1-9ubuntu0.5',
 }
 package { 'perl-modules-5.22':
-  ensure => '5.22.1-9ubuntu0.2',
+  ensure => '5.22.1-9ubuntu0.5',
 }
 package { 'pip':
   ensure => '8.1.1',
 }
 package { 'plymouth':
-  ensure => '0.9.2-3ubuntu13.3',
+  ensure => '0.9.2-3ubuntu13.5',
 }
 package { 'plymouth-theme-ubuntu-text':
-  ensure => '0.9.2-3ubuntu13.3',
+  ensure => '0.9.2-3ubuntu13.5',
 }
 package { 'policykit-1':
-  ensure => '0.105-14.1',
+  ensure => '0.105-14.1ubuntu0.1',
 }
 package { 'pollinate':
-  ensure => '4.25-0ubuntu1~16.04.1',
+  ensure => '4.33-0ubuntu1~16.04.1',
 }
 package { 'popularity-contest':
   ensure => '1.64ubuntu2',
@@ -1400,7 +1415,7 @@ package { 'powermgmt-base':
   ensure => '1.31+nmu1',
 }
 package { 'procps':
-  ensure => '2:3.3.10-4ubuntu2.3',
+  ensure => '2:3.3.10-4ubuntu2.4',
 }
 package { 'psmisc':
   ensure => '22.21-2.1build1',
@@ -1433,7 +1448,7 @@ package { 'python-apt-common':
   ensure => '1.1.0~beta1ubuntu0.16.04.1',
 }
 package { 'python-dateutil':
-  ensure => '2.6.1',
+  ensure => '2.7.3',
 }
 package { 'python-minimal':
   ensure => '2.7.12-1~16.04',
@@ -1466,7 +1481,7 @@ package { 'python3':
   ensure => '3.5.1-3',
 }
 package { 'python3-apport':
-  ensure => '2.20.1-0ubuntu2.15',
+  ensure => '2.20.1-0ubuntu2.18',
 }
 package { 'python3-apt':
   ensure => '1.1.0~beta1ubuntu0.16.04.1',
@@ -1556,7 +1571,7 @@ package { 'python3-prettytable':
   ensure => '0.7.2-3',
 }
 package { 'python3-problem-report':
-  ensure => '2.20.1-0ubuntu2.15',
+  ensure => '2.20.1-0ubuntu2.18',
 }
 package { 'python3-pyasn1':
   ensure => '0.1.9-1',
@@ -1592,7 +1607,7 @@ package { 'python3-systemd':
   ensure => '231-2build1',
 }
 package { 'python3-update-manager':
-  ensure => '1:16.04.12',
+  ensure => '1:16.04.13',
 }
 package { 'python3-urllib3':
   ensure => '1.13.1-2ubuntu0.16.04.1',
@@ -1622,7 +1637,7 @@ package { 'rename':
   ensure => '0.20-4',
 }
 package { 'requests':
-  ensure => '2.18.4',
+  ensure => '2.19.1',
 }
 package { 'resolvconf':
   ensure => '1.78ubuntu6',
@@ -1673,10 +1688,10 @@ package { 'ruby-test-unit':
   ensure => '3.1.7-2',
 }
 package { 'ruby2.3':
-  ensure => '2.3.1-2~16.04.7',
+  ensure => '2.3.1-2~16.04.10',
 }
 package { 'ruby2.3-dev':
-  ensure => '2.3.1-2~16.04.7',
+  ensure => '2.3.1-2~16.04.10',
 }
 package { 'rubygems-integration':
   ensure => '1.10',
@@ -1715,19 +1730,19 @@ package { 'six':
   ensure => '1.11.0',
 }
 package { 'snapd':
-  ensure => '2.29.4.2',
+  ensure => '2.32.9',
 }
 package { 'software-properties-common':
   ensure => '0.96.20.7',
 }
 package { 'sosreport':
-  ensure => '3.5-1~ubuntu16.04.2',
+  ensure => '3.5-1~ubuntu16.04.3',
 }
 package { 'specinfra':
-  ensure => ['2.73.3'],
+  ensure => ['2.75.0'],
 }
 package { 'squashfs-tools':
-  ensure => '1:4.3-3ubuntu2.16.04.1',
+  ensure => '1:4.3-3ubuntu2.16.04.2',
 }
 package { 'ssh-import-id':
   ensure => '5.5-0ubuntu1',
@@ -1766,7 +1781,7 @@ package { 'tcpdump':
   ensure => '4.9.2-0ubuntu0.16.04.1',
 }
 package { 'td-agent':
-  ensure => '3.1.1-0',
+  ensure => '3.2.0-0',
 }
 package { 'telnet':
   ensure => '0.17-40',
@@ -1790,7 +1805,7 @@ package { 'ubuntu-cloudimage-keyring':
   ensure => '2013.11.11',
 }
 package { 'ubuntu-core-launcher':
-  ensure => '2.29.4.2',
+  ensure => '2.32.9',
 }
 package { 'ubuntu-keyring':
   ensure => '2012.05.19',
@@ -1829,7 +1844,7 @@ package { 'ureadahead':
   ensure => '0.100.0-19',
 }
 package { 'urllib3':
-  ensure => '1.22',
+  ensure => '1.23',
 }
 package { 'usbutils':
   ensure => '1:007-4',
@@ -1853,13 +1868,13 @@ package { 'vim-tiny':
   ensure => '2:7.4.1689-3ubuntu1.2',
 }
 package { 'vlan':
-  ensure => '1.9-3.2ubuntu1.16.04.4',
+  ensure => '1.9-3.2ubuntu1.16.04.5',
 }
 package { 'voluptuous':
   ensure => '0.11.1',
 }
 package { 'wget':
-  ensure => '1.17.1-1ubuntu1.3',
+  ensure => '1.17.1-1ubuntu1.4',
 }
 package { 'whiptail':
   ensure => '0.52.18-1ubuntu2',
