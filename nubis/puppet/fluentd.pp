@@ -1,4 +1,6 @@
-include ::fluentd
+class { 'fluentd':
+  service_ensure => stopped
+}
 
 fluentd::install_plugin { 'retag':
   ensure      => '0.1.0',
