@@ -1,28 +1,22 @@
 # Change Log
 
 ## [v2.3.0](https://github.com/nubisproject/nubis-fluent-collector/tree/v2.3.0) (2018-07-24)
-[Full Changelog](https://github.com/nubisproject/nubis-fluent-collector/compare/v2.3.0...v2.3.0)
-
-**Closed issues:**
-
-- Build failes trying to start td-agent [\#276](https://github.com/nubisproject/nubis-fluent-collector/issues/276)
-
-**Merged pull requests:**
-
-- Inhibit td-agent restart during builds [\#277](https://github.com/nubisproject/nubis-fluent-collector/pull/277) ([tinnightcap](https://github.com/tinnightcap))
-
-## [v2.3.0](https://github.com/nubisproject/nubis-fluent-collector/tree/v2.3.0) (2018-07-20)
 [Full Changelog](https://github.com/nubisproject/nubis-fluent-collector/compare/v2.2.0...v2.3.0)
 
 **Closed issues:**
 
+- Build failes trying to start td-agent [\#276](https://github.com/nubisproject/nubis-fluent-collector/issues/276)
 - Ensure local disk buffers for all our outbound destinations [\#268](https://github.com/nubisproject/nubis-fluent-collector/issues/268)
 - Tag v2.2.0 release [\#265](https://github.com/nubisproject/nubis-fluent-collector/issues/265)
+- Tag v2.3.0 release [\#278](https://github.com/nubisproject/nubis-fluent-collector/issues/278)
 - Tag v2.3.0 release [\#273](https://github.com/nubisproject/nubis-fluent-collector/issues/273)
 - Tag v2.3.0 release [\#270](https://github.com/nubisproject/nubis-fluent-collector/issues/270)
 
 **Merged pull requests:**
 
+- Update CHANGELOG for v2.3.0 release \[skip ci\] [\#280](https://github.com/nubisproject/nubis-fluent-collector/pull/280) ([nubis-automation](https://github.com/nubis-automation))
+- Update CHANGELOG for v2.3.0 release \[skip ci\] [\#279](https://github.com/nubisproject/nubis-fluent-collector/pull/279) ([nubis-automation](https://github.com/nubis-automation))
+- Inhibit td-agent restart during builds [\#277](https://github.com/nubisproject/nubis-fluent-collector/pull/277) ([tinnightcap](https://github.com/tinnightcap))
 - Update CHANGELOG for v2.3.0 release \[skip ci\] [\#275](https://github.com/nubisproject/nubis-fluent-collector/pull/275) ([nubis-automation](https://github.com/nubis-automation))
 - Update CHANGELOG for v2.3.0 release \[skip ci\] [\#274](https://github.com/nubisproject/nubis-fluent-collector/pull/274) ([nubis-automation](https://github.com/nubis-automation))
 - Update CHANGELOG for v2.3.0 release \[skip ci\] [\#272](https://github.com/nubisproject/nubis-fluent-collector/pull/272) ([nubis-automation](https://github.com/nubis-automation))
