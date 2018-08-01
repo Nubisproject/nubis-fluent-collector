@@ -1,6 +1,6 @@
 # Change Log
 
-## [v2.3.0](https://github.com/nubisproject/nubis-fluent-collector/tree/v2.3.0) (2018-07-24)
+## [v2.3.0](https://github.com/nubisproject/nubis-fluent-collector/tree/v2.3.0) (2018-07-27)
 [Full Changelog](https://github.com/nubisproject/nubis-fluent-collector/compare/v2.2.0...v2.3.0)
 
 **Closed issues:**
@@ -8,6 +8,7 @@
 - Build failes trying to start td-agent [\#276](https://github.com/nubisproject/nubis-fluent-collector/issues/276)
 - Ensure local disk buffers for all our outbound destinations [\#268](https://github.com/nubisproject/nubis-fluent-collector/issues/268)
 - Tag v2.2.0 release [\#265](https://github.com/nubisproject/nubis-fluent-collector/issues/265)
+- Tag v2.3.0 release [\#284](https://github.com/nubisproject/nubis-fluent-collector/issues/284)
 - Tag v2.3.0 release [\#281](https://github.com/nubisproject/nubis-fluent-collector/issues/281)
 - Tag v2.3.0 release [\#278](https://github.com/nubisproject/nubis-fluent-collector/issues/278)
 - Tag v2.3.0 release [\#273](https://github.com/nubisproject/nubis-fluent-collector/issues/273)
@@ -15,6 +16,8 @@
 
 **Merged pull requests:**
 
+- Update CHANGELOG for v2.3.0 release \[skip ci\] [\#286](https://github.com/nubisproject/nubis-fluent-collector/pull/286) ([nubis-automation](https://github.com/nubis-automation))
+- Update CHANGELOG for v2.3.0 release \[skip ci\] [\#285](https://github.com/nubisproject/nubis-fluent-collector/pull/285) ([nubis-automation](https://github.com/nubis-automation))
 - Update CHANGELOG for v2.3.0 release \[skip ci\] [\#283](https://github.com/nubisproject/nubis-fluent-collector/pull/283) ([nubis-automation](https://github.com/nubis-automation))
 - Update CHANGELOG for v2.3.0 release \[skip ci\] [\#282](https://github.com/nubisproject/nubis-fluent-collector/pull/282) ([nubis-automation](https://github.com/nubis-automation))
 - Update CHANGELOG for v2.3.0 release \[skip ci\] [\#280](https://github.com/nubisproject/nubis-fluent-collector/pull/280) ([nubis-automation](https://github.com/nubis-automation))
